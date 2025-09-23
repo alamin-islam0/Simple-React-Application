@@ -3,7 +3,6 @@ import "./Country.css";
 
 const Country = ({ country, handleVisitedCountries }) => {
   const [visited, setVisited] = useState(false);
-  console.log(handleVisitedCountries);
 
   const handleVisited = () => {
     setVisited(!visited);
